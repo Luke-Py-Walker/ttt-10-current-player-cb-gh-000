@@ -3,8 +3,8 @@ def turn_count(board)
   board.each do |square|
     if square == "X" || square == "O"
       count += 1
-  return count
     end
+  return count
   end
 
 def current_player(board)
